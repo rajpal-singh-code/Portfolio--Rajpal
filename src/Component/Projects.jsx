@@ -31,8 +31,8 @@ const Projects = () => {
         img: Portfilio,
         heading: "Portfilio Rajpal",
         description: "Use for Job Purpose",
-        versel: "https://english-to-hindi.vercel.app/",
-        github: "https://github.com/rajpal-singh-code/EnglishTo_Hindi"
+        versel: "https://portfolio-rajpal.vercel.app/",
+        github: "https://github.com/rajpal-singh-code/Portfolio--Rajpal"
       },
       {
         img: CodeEditor,
