@@ -1,22 +1,22 @@
 import React from "react";
-import Currency from "../assets/Currency.png";
-import Translator from "../assets/Translator.png";
+import Crud from "../assets/Crud.png"
+import gemini from "../assets/gemini.png"
 
 const ProjectCard = () => {
   let data = [
     {
-      img: Currency,
-      heading: "Currency Convertor",
-      description: "Real Time currency report using API",
-      versel: "https://currency-converter.vercel.app/", // corrected sample versel
-      github: "https://github.com/rajpal-singh-code/currency-converter"
+      img: gemini,
+      heading: "SkillSnap-AI",
+      description: "Real Time Gemini keys using for text generate",
+      vercel: "https://skill-snap-ai-4trx.vercel.app/", 
+      github: "https://github.com/rajpal-singh-code/SkillSnap-AI"
     },
     {
-      img: Translator,
-      heading: "English To Hindi",
-      description: "Uses Translator API",
-      vercel: "https://english-to-hindi.vercel.app/",
-      github: "https://github.com/rajpal-singh-code/EnglishTo_Hindi"
+      img: Crud,
+      heading: "TaskManager",
+      description: "Simplifying Data Management and Operations (CRUD)",
+      vercel: "https://task-management-hdcs.vercel.app/",
+      github: "https://github.com/rajpal-singh-code/Task-Management"
     }
   ];
 

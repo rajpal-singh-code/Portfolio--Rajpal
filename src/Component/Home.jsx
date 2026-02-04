@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import ProjectCard from './ProjectCard'
 import Blogcard from './Blogcard'
 import LinkPage from './LinkPage'
+import Skills from './Skills'
+import resume from '../assets/Resume.pdf'
 
 
 const Home = () => {
@@ -10,26 +12,28 @@ const Home = () => {
     <>
         <div>
             <div className='pt-15 text-[33px] font-semibold md:text-6xl md:pt-25 leading-tight'>
-                <h1 className='mb-1 md:py-1'>Hi, I'm <span className='text-blue-500'>Rajpal Kumar</span></h1>
-                <h1 className='mt-0'>Frontend Developer</h1>
+                <h1 className='mb-1 md:py-1'>Hi, I'm <span className='text-blue-500'>Rajpal Kumar,</span></h1>
+                <h1 className='mt-0'>Software Developer</h1>
             </div>
             <div className='text-xl font-light py-6 leading-tight opacity-80 md:text-3xl'>
                 <p>I craft fantastic things with code. I also write about those things.</p>
             </div>
-            <div className='flex justify-between text-xl md:font-semibold'>
+            <div className='flex text-xl md:font-semibold gap-3'>
                 <NavLink className="border-2 md:px-4 px-3 py-1 md:py-3 rounded-sm" to="/about">Discover More <i class="ri-arrow-right-s-line"></i></NavLink>
+                <a
+                    href={resume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-md md:text-lg font-medium border-2 w-fit px-3 py-1 md:px-4 md:py-1 rounded-sm hover:bg-black-hover transition-all flex items-center gap-2"
+                    >
+                    <i className="ri-file-text-line text-xl"></i>
+                    Resume
+                </a>
             </div>
             
             <div className='pt-10 md:pt-12 md:pb-7'>
                 <h1 className='text-xl font-semibold'>Tech Stack</h1>
-                <div className='text-3xl gap-2 py-3 flex md:text-4xl md:gap-3'>
-                    <i class="ri-html5-fill"></i>
-                    <i class="ri-css3-fill"></i>
-                    <i class="ri-javascript-fill"></i>
-                    <i class="ri-reactjs-fill"></i>
-                    <i class="ri-tailwind-css-fill"></i>
-                    <i class="ri-git-merge-line"></i>
-                </div>
+                <Skills/>
             </div>
 
             <div className='py-8 leading-10'>

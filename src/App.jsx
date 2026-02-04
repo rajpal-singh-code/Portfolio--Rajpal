@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='sm:px-42 px-7 pt-16'>
+      <div className='sm:px-42 px-7 pt-16 bg-[#0A0A0A]'>
           {showmodel && <Popup setShowmodel ={setShowmodel} />}
          <Navigation setShowmodel={setShowmodel}/>
          <Routing/>

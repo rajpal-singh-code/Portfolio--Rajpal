@@ -1,23 +1,45 @@
 import React from 'react'
 import Currency from "../assets/Currency.png";
 import Translator from "../assets/Translator.png";
-import CodeEditor from "../assets/CodeEditor.png";
 import Ecart from "../assets/Ecart.png";
 import Portfilio from "../assets/Portfilio.png";
 import Refocus from "../assets/Refocus.png";
-import shine from "../assets/shine.png";
-import weather from "../assets/weather.png";
 import LinkPage from './LinkPage';
+import Crud from "../assets/Crud.png"
+import gemini from "../assets/gemini.png"
+import GigFlow from "../assets/GigFlow.png"
+import CodeEditor from "../assets/CodeEditor.png"
 
 
 const Projects = () => {
 
   let data = [
       {
+        img: gemini,
+        heading: "SkillSnap-AI",
+        description: "Real Time Gemini keys using for text generate",
+        versel: "https://skill-snap-ai-4trx.vercel.app/", 
+        github: "https://github.com/rajpal-singh-code/SkillSnap-AI"
+      },
+      {
+        img: Crud,
+        heading: "TaskManager",
+        description: "Simplifying Data Management and Operations (CRUD)",
+        versel: "https://task-management-hdcs.vercel.app/",
+        github: "https://github.com/rajpal-singh-code/Task-Management"
+      },
+      {
+        img: GigFlow,
+        heading: "Smart Bid Connect",
+        description: "Seamless gig bidding platform online like Intersala",
+        versel: "https://gig-flow-client.vercel.app/login",
+        github: "https://github.com/rajpal-singh-code/GigFlow"
+      },
+      {
         img: Currency,
         heading: "Currency Convertor",
         description: "Real Time currency report using API",
-        versel: "https://currency-converter.vercel.app/", // corrected sample versel
+        versel: "https://currency-converter.vercel.app/", 
         github: "https://github.com/rajpal-singh-code/currency-converter"
       },
       {
@@ -26,13 +48,6 @@ const Projects = () => {
         description: "Uses Translator API",
         versel: "https://english-to-hindi.vercel.app/",
         github: "https://github.com/rajpal-singh-code/EnglishTo_Hindi"
-      },
-      {
-        img: Portfilio,
-        heading: "Portfilio Rajpal",
-        description: "Use for Job Purpose",
-        versel: "https://portfolio-rajpal.vercel.app/",
-        github: "https://github.com/rajpal-singh-code/Portfolio--Rajpal"
       },
       {
         img: CodeEditor,
@@ -47,21 +62,7 @@ const Projects = () => {
         description: "Uses Random E-commerce API",
         versel: "https://e-cart-five-topaz.vercel.app/",
         github: "https://github.com/rajpal-singh-code/E_cart"
-      },
-      {
-        img: shine,
-        heading: "Clone of Shine-website",
-        description: "Uses TailwindCss,and React",
-        versel: "https://clone-shine.vercel.app/",
-        github: "https://github.com/rajpal-singh-code/Clone_Shine"
-      },
-      {
-        img: weather,
-        heading: "Weather App",
-        description: "Uses Weather API",
-        versel: "https://weather-app-seven-ivory.vercel.app/",
-        github: "https://github.com/rajpal-singh-code/React_Weather"
-      },
+      }, 
       {
         img: Refocus,
         heading: "Refocus Clone",
