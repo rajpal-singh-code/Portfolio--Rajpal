@@ -9,11 +9,19 @@ import Crud from "../assets/Crud.png"
 import gemini from "../assets/gemini.png"
 import GigFlow from "../assets/GigFlow.png"
 import CodeEditor from "../assets/CodeEditor.png"
+import AICHAT_Pdf from "../assets/AICHAT_Pdf.png"
 
 
 const Projects = () => {
 
   let data = [
+      {
+        img: AICHAT_Pdf,
+        heading: "AI Chat PDF",
+        description: "Chat with your PDF and get instant answers to your QAs.",
+        versel: "https://ai-pdf-chat-zk38.vercel.app/",
+        github: "https://github.com/rajpal-singh-code/AI-PDF-Chat"
+      },
       {
         img: gemini,
         heading: "SkillSnap-AI",
@@ -69,6 +77,13 @@ const Projects = () => {
         description: "Uses HTML,TailwindCss,React ,JavaScript",
         versel: "https://refocuss-clone.vercel.app/",
         github: "https://github.com/rajpal-singh-code/Refocuss_Clone"
+      },
+      {
+        img: Portfilio,
+        heading: "Portfilio Website",
+        description: "Uses HTML,TailwindCss,React ,JavaScript",
+        versel: "https://portfolio-rajpal.vercel.app/",
+        github: "https://github.com/rajpal-singh-code/Portfolio--Rajpal"
       }
       
     ];
