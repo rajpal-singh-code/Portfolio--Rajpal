@@ -1,6 +1,6 @@
 import React from "react";
-import Crud from "../assets/Crud.png"
-import gemini from "../assets/gemini.png"
+import AICHAT_Pdf from "../assets/AICHAT_Pdf.png";
+import gemini from "../assets/gemini.png";
 
 const ProjectCard = () => {
   let data = [
@@ -8,16 +8,16 @@ const ProjectCard = () => {
       img: gemini,
       heading: "SkillSnap-AI",
       description: "Real Time Gemini keys using for text generate",
-      vercel: "https://skill-snap-ai-4trx.vercel.app/", 
-      github: "https://github.com/rajpal-singh-code/SkillSnap-AI"
+      vercel: "https://skill-snap-ai-4trx.vercel.app/",
+      github: "https://github.com/rajpal-singh-code/SkillSnap-AI",
     },
     {
-      img: Crud,
-      heading: "TaskManager",
-      description: "Simplifying Data Management and Operations (CRUD)",
-      vercel: "https://task-management-hdcs.vercel.app/",
-      github: "https://github.com/rajpal-singh-code/Task-Management"
-    }
+      img: AICHAT_Pdf,
+      heading: "AI Chat PDF",
+      description: "Chat with your PDF and get instant answers to your QAs.",
+      versel: "https://ai-pdf-chat-zk38.vercel.app/",
+      github: "https://github.com/rajpal-singh-code/AI-PDF-Chat",
+    },
   ];
 
   return (
