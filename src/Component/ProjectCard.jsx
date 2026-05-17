@@ -5,18 +5,18 @@ import gemini from "../assets/gemini.png";
 const ProjectCard = () => {
   let data = [
     {
+      img: AICHAT_Pdf,
+      heading: "AI Chat PDF",
+      description: "Chat with your PDF and get instant answers to your QAs.",
+      vercel: "https://ai-pdf-chat-zk38.vercel.app/",
+      github: "https://github.com/rajpal-singh-code/AI-PDF-Chat",
+    },
+    {
       img: gemini,
       heading: "SkillSnap-AI",
       description: "Real Time Gemini keys using for text generate",
       vercel: "https://skill-snap-ai-4trx.vercel.app/",
       github: "https://github.com/rajpal-singh-code/SkillSnap-AI",
-    },
-    {
-      img: AICHAT_Pdf,
-      heading: "AI Chat PDF",
-      description: "Chat with your PDF and get instant answers to your QAs.",
-      versel: "https://ai-pdf-chat-zk38.vercel.app/",
-      github: "https://github.com/rajpal-singh-code/AI-PDF-Chat",
     },
   ];
 
