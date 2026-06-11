@@ -19,7 +19,7 @@ const Projects = () => {
         img: AICHAT_Pdf,
         heading: "AI Chat PDF",
         description: "Chat with your PDF and get instant answers to your QAs.",
-        versel: "https://ai-pdf-chat-zk38.vercel.app/",
+        versel: "https://ai-pdf-chat-jug8.vercel.app/",
         github: "https://github.com/rajpal-singh-code/AI-PDF-Chat"
       },
       {

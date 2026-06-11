@@ -15,7 +15,7 @@ const ProjectCard = () => {
       img: gemini,
       heading: "SkillSnap-AI",
       description: "Real Time Gemini keys using for text generate",
-      vercel: "https://skill-snap-ai-4trx.vercel.app/",
+      vercel: "https://ai-pdf-chat-jug8.vercel.app/",
       github: "https://github.com/rajpal-singh-code/SkillSnap-AI",
     },
   ];
