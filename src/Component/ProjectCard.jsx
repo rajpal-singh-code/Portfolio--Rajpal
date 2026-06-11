@@ -8,14 +8,14 @@ const ProjectCard = () => {
       img: AICHAT_Pdf,
       heading: "AI Chat PDF",
       description: "Chat with your PDF and get instant answers to your QAs.",
-      vercel: "https://ai-pdf-chat-zk38.vercel.app/",
+      vercel: "https://ai-pdf-chat-jug8.vercel.app/",
       github: "https://github.com/rajpal-singh-code/AI-PDF-Chat",
     },
     {
       img: gemini,
       heading: "SkillSnap-AI",
       description: "Real Time Gemini keys using for text generate",
-      vercel: "https://ai-pdf-chat-jug8.vercel.app/",
+      vercel: "https://skill-snap-ai-4trx.vercel.app/",
       github: "https://github.com/rajpal-singh-code/SkillSnap-AI",
     },
   ];
