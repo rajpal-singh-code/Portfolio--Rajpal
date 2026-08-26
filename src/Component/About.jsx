@@ -30,7 +30,7 @@ const About = () => {
 
         <a href={resume} target="_blank" rel="noopener noreferrer"
           className="text-md md:text-lg font-bold border-2 py-6 w-fit px-3  md:px-4 md:py-1 rounded-sm hover:bg-black-hover transition-all flex items-center gap-2">
-          <i className="ri-file-text-line text-xl"></i> Resume
+          <i className="ri-file-text-line text-xl"></i> Resume 
         </a>
 
         <div className='py-10'>
